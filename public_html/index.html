@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css//bootstrap.min.css"
+      rel="stylesheet prefetch">
+
+    <link href="css/styles.css" rel="stylesheet">
+
+    <title>Wikipedia Viewer</title>
+
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <h1>Wikipedia Viewer</h1>
+        <h3><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" title="random wiki page">Get a random page</a></h3>
+        
+        <form action="javascript:wiki_search()">
+          <input type="text" id="text-search">
+          <input type="submit">
+        </form>
+      </main>
+    </div>
+
+    <script
+      src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'>
+
+    </script>
+    <script src="js/wiki_search.js"></script>
+    <script
+      src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'>
+    </script>
+  </body>
+</html>
